@@ -1,6 +1,6 @@
 name = "houdini"
 
-version = "20.5.684"
+version = "21.0.440"
 
 authors = [
     "SifeFX"
@@ -22,7 +22,7 @@ uuid = "sidefx.houdini"
 build_command = ""
 
 def commands():
-    env.PATH.append("C:\\PROGRA~1\\Side Effects Software\\Houdini 20.5.684\\bin")
-    alias("houdini", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 20.5.684\\bin\\houdini.exe\"')
-    alias("husk", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 20.5.684\\bin\\husk.exe\"')
-    alias("hython", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 20.5.684\\bin\\hython.exe\"')
+    env.PATH.append("C:\\PROGRA~1\\Side Effects Software\\Houdini 21.0.440\\bin")
+    alias("houdini", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 21.0.440\\bin\\houdini.exe\"')
+    alias("husk", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 21.0.440\\bin\\husk.exe\"')
+    alias("hython", '\"C:\\PROGRA~1\\Side Effects Software\\Houdini 21.0.440\\bin\\hython.exe\"')
